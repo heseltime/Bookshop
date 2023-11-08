@@ -2,13 +2,13 @@ export class Book {
     // public id: string;
 
     constructor(
-        public title?: string,
+        public id?: string,
         public author?: string,
-        public publisher?: string,
+        public title?: string,
         public price?: string,
+        public publisher?: string,
         public year?: string,
         public description?: string,
-        public id?: string,
         public picture?: string,
         public isbn?: string
     ) {}
